@@ -2,7 +2,7 @@ import React from "react";
 
 const Expo = () => {
   return (
-    <div className="bg-white w-full h-full pt-40 flex flex-col gap-y-8 lg:px-12  ">
+    <div className="bg-white w-full h-full pt-40 flex flex-col gap-y-8 lg:px-12 px-8 ">
       <h1 className="font-semibold text-3xl flex items-center justify-center">Expo / Festivals </h1>
     
     <p><span className="text-lg font-semibold">2023 : </span>
