@@ -2,18 +2,40 @@ import {React, useState} from "react";
 import {IoMdClose} from 'react-icons/io';
 import {CgMenuRight} from 'react-icons/cg';
 import { Link } from "react-router-dom";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const MobileNav = () => {
+  const MenuVariants = {
+    hidden: {
+      x: '100%'
+    },
+    show: {
+      x: 0,
+      transition: {
+        ease: [0.6, 0.01, -0.05, 0.9]
+      } 
+
+    }
+  }
+  const [isOpen, setIsOpen] = useState(false)
   return (
-   <nav>
-    <div className="text-3xl cursor-pointer">
+   <nav className="text-black xl:hidden">
+    <div 
+    onClick={setIsOpen}
+    className="text-3xl cursor-pointer relative">
       <CgMenuRight></CgMenuRight>
     </div>
-    <div className="text-4xl z-30 left-4 top-14 cursor-pointer text-black">
+    <motion.div 
+    variants={MenuVariants}
+    initial="hidden"
+    animate= {isOpen ? 'show' : ''}
+    className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
+    <div
+    onClick={()=>setIsOpen(false)}
+    
+    className="text-4xl z-30 left-10 top-8 cursor-pointer text-black absolute ">
       <IoMdClose></IoMdClose>
     </div>
-    <div className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20">
       <div>
         <ul className="h-full flex flex-col gap-y-8 justify-center items-center text-black font-bold text-2xl pt-16">
           <li>
@@ -46,7 +68,7 @@ const MobileNav = () => {
           
         </ul>
       </div>
-    </div>
+    </motion.div>
    </nav>
   )
 }
