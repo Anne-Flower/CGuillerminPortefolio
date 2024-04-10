@@ -1,9 +1,9 @@
 import React from "react";
 
 const Serigraphie = () => {
-  return (
-    <h1>Serigraphies</h1>
-  )
+  return 
+    
+  
 }
 
 export default Serigraphie;

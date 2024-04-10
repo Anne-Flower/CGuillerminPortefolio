@@ -1,12 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Button from "../components/common/Button";
 
 const Home = () => {
   return (
-    <section className="section bg-blue-200 w-full h-screen">
-      
+    <section className="section bg-white ">
+      <div className="container mx-auto h-screen relative">
+        <div className="flex flex-col justify-center">
+        <div className="z-10 w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto lg:absolute flex flex-col justify-center items-center lg:items-start ">
+          <h1 className="text-4xl font-bold">Chloé Guillermin</h1>
+          <p className="text-2xl font-semibold mb-4 lg:mb-12">Tattoo Artist</p>
+      <div>
+              <Link to='/contact' className="btn mb-[30px] ">
+                <Button>Contact me</Button>
+              </Link>
+              </div>
+        </div>
+        <div className="flex justify-end max-h-96 lg:max-h-max">
+      <img
+      className="lg:w-[800px]  h-full relative lg:bottom-0 overflow-hidden"
+      src={`${process.env.PUBLIC_URL}/portrait1.jpeg`} alt="chloé"/>
+      </div>
+      </div>
+      </div>
 
     </section>
   )
 }
 
+// src="../assets/imagesHome/portrait1.jpeg" alt="chloé" />
 export default Home;
