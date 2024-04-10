@@ -1,8 +1,13 @@
-import React from "react";
+import {React} from "react";
+
+
+
+
+
 
 const Socials = () => {
   return (
-   <div>yo</div>
+   <div className="hidden xl:flex ml-24">yo</div>
   )
 }
 
