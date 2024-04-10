@@ -1,8 +1,41 @@
 import React from "react";
+import Button from "../components/common/Button";
 
 const Contact = () => {
   return (
-    <h1 className="bg-green-200 w-full h-screen text-red-500">Contact</h1>
+    <section className="bg-gradient-to-r from-white from-30% to-[#ebe8e1]">
+      <div className="mx-auto h-full">
+        <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 gap-x-8 text-center lg:text-left">
+        <div></div>
+        <div className="lg:flex-1 lg:pt-32 px-4 ">
+          <h1 className="font-bold py-8 text-4xl">Contact</h1>
+          <form className="bg-transparent flex flex-col gap-y-4">
+            <div className="flex gap-x-10">
+              <input 
+              className="bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
+              type="text" 
+              placeholder="Ton nom"/>
+              <input 
+              className="bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
+              type="text" 
+              placeholder="Ton email"/>
+            </div>
+            <input 
+              className="bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
+              type="text" 
+              placeholder="Ton message"/>
+              <div className="mt-12">
+              <Button>Envoyer</Button>
+              </div>
+          </form>
+        </div>
+        <div></div>
+        </div>
+
+      </div>
+
+
+    </section>
   )
 }
 
