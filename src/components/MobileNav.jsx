@@ -42,28 +42,28 @@ const MobileNav = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/">Tatoo</Link>
+            <Link to="/tatoo">Tatoo</Link>
           </li>
           <li>
-            <Link to="/">Flash / Dessin</Link>
+            <Link to="/flash">Flash / Dessin</Link>
           </li>
           <li>
-            <Link to="/">Sérigraphie</Link>
+            <Link to="/serigraphie">Sérigraphie</Link>
           </li>
           <li>
-            <Link to="/">Body-painting</Link>
+            <Link to="/body">Body-painting</Link>
           </li>
           <li>
-            <Link to="/">Expo / Festival</Link>
+            <Link to="/expo">Expo / Festival</Link>
           </li>
           <li>
-            <Link to="/">Céramique</Link>
+            <Link to="/ceramique">Céramique</Link>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           
         </ul>
