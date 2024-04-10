@@ -12,11 +12,15 @@ const Header = () => {
  <Link to="/" className="max-w-[200px]">
  <Logo></Logo>
  </Link>
- <nav className="hidden lg:flex gap-x-12 font-semibold">
+ <nav className="hidden xl:flex gap-x-12 font-semibold">
   <Link to="/" className="text-[#696c6d] hover:text-black transition">Home</Link>
   <Link to="/about" className="text-[#696c6d] hover:text-black transition">About</Link>
-  <Link to="/tatoo" className="text-[#696c6d] hover:text-black transition">Tatoo</Link>
-  <Link to="/flash" className="text-[#696c6d] hover:text-black transition">Flash</Link>
+  <Link to="/tatoo" className="text-[#696c6d] hover:text-black transition">Tattoo</Link>
+  <Link to="/flash" className="text-[#696c6d] hover:text-black transition">Flash / Dessin</Link>
+  <Link to="/body" className="text-[#696c6d] hover:text-black transition">Body-painting</Link>
+  <Link to="/serigraphie" className="text-[#696c6d] hover:text-black transition">Sérigraphie</Link>
+  <Link to="/ceramique" className="text-[#696c6d] hover:text-black transition">Céramique</Link>
+  <Link to="/expo" className="text-[#696c6d] hover:text-black transition">Expo</Link>
   <Link to="/contact" className="text-[#696c6d] hover:text-black transition">Contact</Link>
  </nav>
  </div>
