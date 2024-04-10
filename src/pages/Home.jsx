@@ -2,7 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <h1>Chloé Guillermin</h1>
+    <section className="section bg-blue-200 w-full h-screen">
+      
+
+    </section>
   )
 }
 
