@@ -37,32 +37,32 @@ const MobileNav = () => {
       <IoMdClose></IoMdClose>
     </div>
       <div>
-        <ul className="h-full flex flex-col gap-y-8 justify-center items-center text-black font-bold text-2xl pt-16">
-          <li>
+        <ul className="h-full flex flex-col gap-y-8 justify-center items-center text-black  font-bold text-2xl pt-16">
+          <li className="hover:text-gray-400">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/tatoo">Tatoo</Link>
+            <Link to="/tatoo">Tattoo</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/flash">Flash / Dessin</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/serigraphie">Sérigraphie</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/body">Body-painting</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/expo">Expo / Festival</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/ceramique">Céramique</Link>
           </li>
-          <li>
+          <li className="hover:text-gray-500">
             <Link to="/contact">Contact</Link>
           </li>
           
