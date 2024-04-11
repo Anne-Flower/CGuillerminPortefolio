@@ -1,18 +1,33 @@
 import React from "react";
 import Masonry from "react-responsive-masonry";
+import { useState, useEffect } from "react";
 
 
 
 
 const Serigraphie = () => {
-  const numberOfBoxes = 16
+  const numberOfBoxes = 21
   const images = Array.from({ length: numberOfBoxes }, (_, index) => `/assets/imagesSerigraphies/Sérigraphie/${index + 1}.jpg`);
   const pick = (heights) => {
     return heights[Math.floor(Math.random() * heights.length)]; }
+    const [columnsCount, setColumnsCount]= useState(3)
+    useEffect(()=> {
+      const updateColumnsCount = () => {
+        if (window.innerWidth < 1280 ) {
+          setColumnsCount(1)
+        } else {
+          setColumnsCount(3)
+        }
+      }
+      window.addEventListener('resize', updateColumnsCount)
+      updateColumnsCount();
+      return () => window.removeEventListener('resize', updateColumnsCount);
+    }, [] );
 
 
-  return (<div className="pt-36 px-20">
-  <Masonry columnsCount={2} gutter="60px">
+  return (
+  <div className="pt-24 lg:px-20 px-4">
+  <Masonry columnsCount={columnsCount} gutter="60px">
   {images.map((img, index) => (
    <div
      key={index}

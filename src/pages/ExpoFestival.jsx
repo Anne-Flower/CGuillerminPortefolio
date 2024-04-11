@@ -2,7 +2,7 @@ import React from "react";
 
 const Expo = () => {
   return (
-    <div className="bg-gradient-to-r from-white from-30% to-[#ebe8e1] w-full lg:h-full h-full pt-40 flex flex-col gap-y-8 lg:px-24 px-8 ">
+    <div className="bg-white w-full lg:h-full h-full pt-40 flex flex-col gap-y-8 lg:px-24 px-8 ">
       <h1 className="font-semibold text-3xl flex items-center justify-center ">Expositions / Festivals </h1>
     
     <p><span className="text-lg font-semibold">2023 : </span>

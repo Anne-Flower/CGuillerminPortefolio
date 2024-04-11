@@ -6,14 +6,16 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-   <> 
-   <header className="z-30 xl:sticky fixed w-full h-[100px] lg:h-[140px] flex items-center px-[26px] lg:px-[80px]">
+  <> 
+  <header className="z-30 xl:sticky fixed w-full h-[100px] lg:h-[140px] flex items-center px-[26px] lg:px-[80px]">
 
     <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
- <Link to="/" className="max-w-[200px]">
- <Logo></Logo>
- </Link>
- <nav className="hidden xl:flex gap-x-12 font-semibold">
+      <div className="hidden md:inline">
+  <Link to="/" className="max-w-[200px]">
+  <Logo></Logo>
+  </Link>
+  </div>
+  <nav className="hidden xl:flex gap-x-12 font-semibold">
   <Link to="/" className="text-[#696c6d] hover:text-black transition">Home</Link>
   <Link to="/about" className="text-[#696c6d] hover:text-black transition">About</Link>
   <Link to="/tatoo" className="text-[#696c6d] hover:text-black transition">Tattoo</Link>

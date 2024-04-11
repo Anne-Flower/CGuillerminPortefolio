@@ -11,14 +11,14 @@ const Home = () => {
           <h1 className="text-4xl font-bold">Chloé Guillermin</h1>
           <p className="text-2xl font-semibold mb-4 lg:mb-12">Tattoo Artist</p>
       <div>
-              <Link to='/contact' className="btn mb-[30px] ">
+              <Link to='/contact' className="mb-[30px] ">
                 <Button>Contact me</Button>
               </Link>
               </div>
         </div>
-        <div className="flex justify-end max-h-96 xl:max-h-[800px]">
+        <div className="flex justify-end  xl:max-h-[800px]">
       <img
-      className="lg:w-[580px] lg:h-[673px]  h-full relative lg:bottom-0 overflow-hidden"
+      className="lg:w-[580px] lg:h-[673px] min-h-full w-full  relative lg:bottom-0 overflow-hidden"
       src={`${process.env.PUBLIC_URL}/portrait1.jpeg`} alt="chloé"/>
       </div>
       </div>

@@ -3,9 +3,9 @@ import Button from "../components/common/Button";
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-r from-white from-30% to-[#fcfbf7]">
+    <section className="bg-white">
       <div className="mx-auto h-full">
-        <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 gap-x-8 text-center lg:text-left">
+        <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 lg:pt-0 gap-x-8 text-center lg:text-left">
         <div></div>
         <div className="lg:flex-1 lg:pt-22 px-4 ">
           <h1 className="font-bold py-8 text-4xl">Contact</h1>

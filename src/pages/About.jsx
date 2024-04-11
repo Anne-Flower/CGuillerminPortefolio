@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="section bg-gradient-to-r from-white from-30% to-[#fcfbf7] w-full lg:h-screen h-full pt-40 xl:pt-0 flex flex-col gap-y-8 lg:px-16 items-center justify-center ">
+    <div className="section bg-gradient-to-r from-white from-30% to-[#fcfbf7] w-full lg:h-screen h-full pt-40 xl:pt-0 xl:pt-0 flex flex-col gap-y-4 lg:px-16 items-center justify-center ">
 
       <h1 className="text-4xl ">Chloé Guillermin</h1>
       <p className="text-lg px-6  flex justify-center lg:pt-24">Après des études de graphisme à Lyon, c’est aux Beaux-arts de Besançon qu’elle fait ses

@@ -19,7 +19,7 @@ const MobileNav = () => {
   }
   const [isOpen, setIsOpen] = useState(false)
   return (
-   <nav className="text-black xl:hidden">
+    <nav className="text-black xl:hidden">
     <div 
     onClick={setIsOpen}
     className="text-3xl cursor-pointer relative">
