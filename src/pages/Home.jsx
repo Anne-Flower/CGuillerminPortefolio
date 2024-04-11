@@ -16,9 +16,9 @@ const Home = () => {
               </Link>
               </div>
         </div>
-        <div className="flex justify-end max-h-96 lg:max-h-max">
+        <div className="flex justify-end max-h-96 xl:max-h-[800px]">
       <img
-      className="lg:w-[800px]  h-full relative lg:bottom-0 overflow-hidden"
+      className="lg:w-[580px] lg:h-[673px]  h-full relative lg:bottom-0 overflow-hidden"
       src={`${process.env.PUBLIC_URL}/portrait1.jpeg`} alt="chloé"/>
       </div>
       </div>

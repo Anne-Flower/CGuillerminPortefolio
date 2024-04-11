@@ -3,7 +3,7 @@ import Button from "../components/common/Button";
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-r from-white from-30% to-[#ebe8e1]">
+    <section className="bg-gradient-to-r from-white from-30% to-[#fcfbf7]">
       <div className="mx-auto h-full">
         <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 gap-x-8 text-center lg:text-left">
         <div></div>
@@ -12,16 +12,16 @@ const Contact = () => {
           <form className="bg-transparent flex flex-col gap-y-4">
             <div className="flex gap-x-10">
               <input 
-              className="bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
+              className="focus:outline-none  bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
               type="text" 
               placeholder="Ton nom"/>
               <input 
-              className="bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
+              className="focus:outline-none bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
               type="text" 
               placeholder="Ton email"/>
             </div>
             <input 
-              className="bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
+              className="focus:outline-none bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
               type="text" 
               placeholder="Ton message"/>
               <div className="mt-12">
