@@ -1,11 +1,7 @@
 import React from "react";
 import Masonry from "react-responsive-masonry";
-// import Masonry from 'react-layout-masonry';
-// import { Masonry } from 'react-masonry'
-// import { pick } from './random'
 
 const BodyPainting = () => {
-  // public/assets/imagesBody/2019/Alex-2019-1.jpg
     const numberOfBoxes = 16
     const images = Array.from({ length: numberOfBoxes }, (_, index) => `/assets/imagesBody/2019/${index + 1}.jpg`);
     const pick = (heights) => {
