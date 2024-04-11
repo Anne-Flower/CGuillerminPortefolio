@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="mx-auto h-full">
         <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 gap-x-8 text-center lg:text-left">
         <div></div>
-        <div className="lg:flex-1 lg:pt-32 px-4 ">
+        <div className="lg:flex-1 lg:pt-22 px-4 ">
           <h1 className="font-bold py-8 text-4xl">Contact</h1>
           <form className="bg-transparent flex flex-col gap-y-4">
             <div className="flex gap-x-10">
