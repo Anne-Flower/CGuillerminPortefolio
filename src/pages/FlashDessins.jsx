@@ -64,7 +64,7 @@ const Flash = () => {
       </div>
       </div>
 
-      <div className="pt-12 w-screen h-full flex rid grid-rows-4 grid-flow-col gap-4 px-16 ">
+      <div className="pt-12 w-screen h-full flex grid-rows-4 grid-flow-col gap-4 px-16 ">
       <div className="">
         <img src="/assets/imagesFlash/Flashs/Illustration-sans-titre16.jpg" alt="" width="316px" />
       </div>
@@ -79,7 +79,7 @@ const Flash = () => {
       </div>
       </div>
 
-      <div className="pt-12 w-screen h-full flex rid grid-rows-4 grid-flow-col gap-4 px-16 ">
+      <div className="pt-12 w-screen h-full flex grid-rows-4 grid-flow-col gap-4 px-16 ">
       <div className="">
         <img src="/assets/imagesFlash/Flashs/Illustration_sans_titre 17.jpg" alt="" width="316px" />
       </div>
@@ -94,19 +94,14 @@ const Flash = () => {
       </div>
       </div>
 
-      <div className="pt-12 w-screen h-full flex rid grid-rows-4 grid-flow-col gap-4 px-16 ">
+      <div className="pt-12 w-screen h-full flex  grid-rows-4 grid-flow-col gap-4 px-16 ">
       <div className="">
         <img src="/assets/imagesFlash/Flashs/Illustration_sans_titre 10.jpg" alt="" width="316px" />
       </div>
       <div className="">
         <img src="/assets/imagesFlash/Flashs/Illustration_sans_titre 8.jpg" alt="" width="316px" />
       </div>
-      <div className="">
-        <img src="/assets/imagesFlash/Flashs/Illustration_sans_titre 14.jpg" alt="" width="316px" />
-      </div>
-      <div className="">
-        <img src="/assets/imagesFlash/Flashs/Illustration_sans_titre 14.jpg" alt="" width="316px" />
-      </div>
+      
       </div>
      
 

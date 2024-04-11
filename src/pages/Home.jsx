@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <section className="section bg-white ">
       <div className="container mx-auto h-screen relative">
-        <div className="flex flex-col justify-center">
-        <div className="z-10 w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto lg:absolute flex flex-col justify-center items-center lg:items-start ">
-          <h1 className="text-4xl font-bold">Chloé Guillermin</h1>
+        <div className="flex flex-col justify-start">
+        <div className="z-10 w-full pt-36 pb-14 lg:pt-0 lg:pb-0 lg:w-auto lg:absolute flex flex-col justify-center items-start pl-4 lg:pt-80 ">
+          <h1 className="lg:text-[100px] text-4xl pb-8 pt-12 font-bold">Chloé Guillermin</h1>
           <p className="text-2xl font-semibold mb-4 lg:mb-12">Tattoo Artist</p>
       <div>
               <Link to='/contact' className="mb-[30px] ">

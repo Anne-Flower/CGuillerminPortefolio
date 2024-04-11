@@ -4,7 +4,7 @@ const Expo = () => {
   return (
     <div className="bg-white w-full lg:h-full h-full pt-40 flex flex-col gap-y-8 lg:px-24 px-8 ">
       <h1 className="font-semibold text-3xl flex items-center justify-center ">Expositions / Festivals </h1>
-    
+    <div className="lg:grid lg:grid-cols-2 gap-4 flex flex-start lg:pt-16 grid grid-cols-1">
     <p><span className="text-lg font-semibold">2023 : </span>
 Performance body-painting, Festival Magdalena, Mas des Brousses, Montpellier
 Performance body-painting, Festival Ex Tenebris Lux, Opéra Comédie, Montpellier
@@ -26,6 +26,8 @@ Exposition solo, « Nous allons revivre », Black Sheep, Montpellier
 <p>
 <span className="text-lg font-semibold">2020 : </span>Exposition en duo, « Formes amoureuses », atelier Les émaill.é.es, Montpellier
 </p>
+</div>
+<div className="lg:grid lg:grid-cols-2 gap-4 flex flex-start lg:pt-16 grid grid-cols-1 ">
 <p>
 <span className="text-lg font-semibold">2019 : </span>Exposition collective «Appart’ expo», appartement privé, Montpellier
 Exposition collective «Les Biches», galerie Arterossa, Montpellier
@@ -51,6 +53,7 @@ Performance en duo, festival «Back to the trees», Besançon
 Beaux-arts de Besançon, diverses sorties d’ateliers de recherche théâtrale et soirées
 performatives «Action building».
 </p>
+</div>
 </div>
 
   )
