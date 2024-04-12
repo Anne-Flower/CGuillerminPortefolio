@@ -25,7 +25,7 @@ const Header = () => {
   <header className="z-30 xl:sticky fixed w-full h-[100px] lg:h-[120px] flex items-center px-[26px] lg:px-[80px]">
 
     <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
-      <div className={` md:inline ${isLogoVisible ? "inline" : "hidden"}`}>
+      <div className={` xl:inline ${isLogoVisible ? "inline" : "hidden"}`}>
   <Link to="/" className="max-w-[200px]">
   <Logo></Logo>
   </Link>
