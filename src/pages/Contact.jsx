@@ -3,13 +3,13 @@ import Button from "../components/common/Button";
 
 const Contact = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white ">
       <div className="mx-auto h-full">
         <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 lg:pt-0 gap-x-8 text-center lg:text-left">
         <div></div>
-        <div className="lg:flex-1 lg:pt-22 px-4 ">
-          <h1 className="font-bold py-8 text-4xl">Contact</h1>
-          <form className="bg-transparent flex flex-col gap-y-4">
+        <div className="lg:flex-1 lg:pt-16 px-4 ">
+          <h1 className="py-8 text-4xl font-zodiac font-semibold">Contact</h1>
+          <form className="bg-transparent flex flex-col gap-y-4 font-infini">
             <div className="flex gap-x-10">
               <input 
               className="focus:outline-none  bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"

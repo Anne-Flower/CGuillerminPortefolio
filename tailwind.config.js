@@ -3,7 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'zodiak': ['Zodiak-Bold', 'sans-serif'],
+        'infini': ['Infini-Bold', 'sans-serif']
+      }      
+    },
   },
   screens: {
     sm: '640px',

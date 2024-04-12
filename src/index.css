@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* public/fonts/OTF/Zodiak-Bold.otf */
+/* /fonts/font-bold/infini-bold.otf */
+@font-face {
+  font-family: 'Zodiak-Bold';
+  src: url('../public/fonts/OTF/Zodiak-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
 
-
+@font-face {
+  font-family: 'Infini-Bold';
+  src: url('../public/fonts/font-bold/infini-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

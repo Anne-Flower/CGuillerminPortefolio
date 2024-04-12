@@ -40,7 +40,7 @@ const MobileNav = () => {
       <IoMdClose></IoMdClose>
     </div>
       <div>
-        <ul className="h-full flex flex-col gap-y-8 justify-center items-center text-black  font-bold text-2xl pt-16">
+        <ul className="font-zodiak h-full flex flex-col gap-y-8 justify-center items-center text-black text-2xl pt-16">
           <li className="hover:text-gray-400" onClick={handleClose}
           >
             <Link to="/">Home</Link>
@@ -49,22 +49,22 @@ const MobileNav = () => {
             <Link to="/about">About</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
-            <Link to="/tatoo">Tattoo</Link>
+            <Link to="/tatoo">Tattoos</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
-            <Link to="/flash">Flash / Dessin</Link>
+            <Link to="/flash">Flashs / Dessins</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
-            <Link to="/serigraphie">Sérigraphie</Link>
+            <Link to="/serigraphie">Sérigraphies</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
-            <Link to="/body">Body-painting</Link>
+            <Link to="/body">Body-paintings</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
-            <Link to="/expo">Expo / Festival</Link>
+            <Link to="/expo">Expos / Festivals</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
-            <Link to="/ceramique">Céramique</Link>
+            <Link to="/ceramique">Céramiques</Link>
           </li>
           <li className="hover:text-gray-500" onClick={handleClose}>
             <Link to="/contact">Contact</Link>
