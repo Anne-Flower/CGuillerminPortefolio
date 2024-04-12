@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Button from "../components/common/Button";
 
 const Home = () => {
+
   return (
     <section className="section bg-white ">
       <div className="container mx-auto h-screen relative">

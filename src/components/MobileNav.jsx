@@ -17,10 +17,11 @@ const MobileNav = () => {
 
     }
   }
+ 
   const [isOpen, setIsOpen] = useState(false)
-  
   const handleClose = () => {
     setIsOpen(!isOpen)}
+
 
   return (
     <nav className="text-black xl:hidden">
@@ -73,7 +74,7 @@ const MobileNav = () => {
         </ul>
       </div>
     </motion.div>
-   </nav>
+  </nav>
   )
 }
 

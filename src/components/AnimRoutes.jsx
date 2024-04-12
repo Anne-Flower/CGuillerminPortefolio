@@ -8,10 +8,7 @@ import FlashDessins from '../pages/FlashDessins.jsx';
 import Home from '../pages/Home.jsx';
 import Serigraphie from '../pages/Serigraphie.jsx';
 import Tatoo from '../pages/Tatoo.jsx';
-import { Route, Routes, useLocation } from "react-router-dom";
-
-
-
+import { Route, Routes } from "react-router-dom";
 
 
 const AnimRoutes = () => {
