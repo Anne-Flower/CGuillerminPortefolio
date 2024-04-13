@@ -4,12 +4,17 @@ import AnimRoutes from "./components/AnimRoutes.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
+  
   return (
     <>
-      <Router>
-        <Header></Header>
-        <AnimRoutes></AnimRoutes>
-      </Router>
+        
+      <div className=" relative">
+        
+        <Router>
+          <Header></Header>
+          <AnimRoutes></AnimRoutes>
+        </Router>
+      </div>
     </>
   );
 }

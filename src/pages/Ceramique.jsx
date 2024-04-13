@@ -24,7 +24,7 @@ const Ceramique = () => {
 
   return (
 
-    <div className="pt-24 lg:px-20 px-4">
+    <div className="pt-32 lg:px-20 px-4 h-full">
     <Masonry columnsCount={columnsCount} gutter="60px">
     {images.map((img, index) => (
     <div

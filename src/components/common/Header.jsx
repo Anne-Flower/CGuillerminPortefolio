@@ -22,7 +22,8 @@ const Header = () => {
 
   return (
   <> 
-  <header className="z-30 xl:sticky fixed w-full h-[100px] lg:h-[120px] flex items-center px-[26px] lg:px-[80px]">
+  <header 
+  className="z-30 xl:sticky fixed w-full h-[100px] lg:h-[150px] flex items-center px-[26px] md:px-[80px]">
 
     <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
       <div className={` xl:inline ${isLogoVisible ? "inline" : "hidden"}`}>
@@ -30,7 +31,7 @@ const Header = () => {
   <Logo></Logo>
   </Link>
   </div>
-  <nav className="hidden xl:flex gap-x-10 font-zodiak text-[#5d6666]">
+  <nav className="hidden xl:flex gap-x-10 font-zodiak text-[#5d6666]" >
   <Link to="/" className=" hover:text-black transition">Home</Link>
   <Link to="/about" className="hover:text-black transition">About</Link>
   <Link to="/tatoo" className="hover:text-black transition">Tattoos</Link>
@@ -40,14 +41,12 @@ const Header = () => {
   <Link to="/ceramique" className="hover:text-black transition">Céramiques</Link>
   <Link to="/expo" className="hover:text-black transition">Expos</Link>
   <Link to="/contact" className="hover:text-black transition">Contact</Link>
- </nav>
- </div>
- <Socials></Socials>
- <MobileNav></MobileNav>
-   </header>
-   </>
-
-   
+  </nav>
+  </div>
+  <Socials></Socials>
+  <MobileNav></MobileNav>
+  </header>
+  </>
   )
 }
 

@@ -26,22 +26,20 @@ const Serigraphie = () => {
 
 
   return (
-  <div className="pt-24 lg:px-20 px-4">
+  <div className="pt-32 md:px-20 px-4 h-full">
   <Masonry columnsCount={columnsCount} gutter="60px">
   {images.map((img, index) => (
-   <div
-     key={index}
-     style={{
-       backgroundImage: `url(${img})`,
-       backgroundSize: 'cover',
-       backgroundPosition: 'center', 
-       height: `${pick([490, 330, 580, 500, 460, 350])}px`,
-      
-     }}
-   >
-
-   </div>
- ))}
+    <div
+      key={index}
+      style={{
+        backgroundImage: `url(${img})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center', 
+        height: `${pick([490, 330, 580, 500, 460, 350])}px`,     
+      }}
+    >
+    </div>
+  ))}
 </Masonry>
 
 

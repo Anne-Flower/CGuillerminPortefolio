@@ -21,7 +21,7 @@ const Tatoo = () => {
       return () => window.removeEventListener('resize', updateColumnsCount);
     }, [] );
   return (
-    <div className="pt-24 lg:px-20 px-4">
+    <div className="pt-24 lg:px-20 px-4 md:pt-40">
 
 <Masonry columnsCount={columnsCount} gutter="60px">
     {images.map((img, index) => (

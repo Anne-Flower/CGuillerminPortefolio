@@ -17,7 +17,7 @@ const MobileNav = () => {
 
     }
   }
- 
+
   const [isOpen, setIsOpen] = useState(false)
   const handleClose = () => {
     setIsOpen(!isOpen)}

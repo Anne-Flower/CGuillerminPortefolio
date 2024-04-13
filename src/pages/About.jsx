@@ -3,11 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="section  bg-white w-full lg:h-screen h-full pt-40 lg:pt-10 xl:pt-0 flex flex-col gap-y-4 lg:gap-y-0 lg:px-16 items-center lg:items-start justify-center ">
-
-      <h1 className="text-4xl  lg:pl-4 font-infini">Chloé Guillermin</h1>
+    <div className="section  bg-white w-full lg:h-screen h-full pt-52 md:pt-30 xl:pt-0 flex flex-col gap-y-4 lg:px-16 items-start justify-center ">
+      <h1 className="text-4xl  pl-6 font-infini md:pt-12 lg:pt-0 ">Chloé Guillermin</h1>
       <div className="font-zodiak lg:grid lg:grid-cols-3 lg:gap-4 flex flex-start lg:pt-8 grid grid-cols-1 gap-4 ">
-      <p className="text-lg px-6  flex justify-center ">Après des études de graphisme à Lyon, c’est aux Beaux-arts de Besançon qu’elle fait ses
+      <p className="text-lg px-6  flex justify-center md:pt-12 lg:pt-0">Après des études de graphisme à Lyon, c’est aux Beaux-arts de Besançon qu’elle fait ses
 armes, s’exerce à faire émerger une partie du rhizome qui nous relie les un.e.s aux autres.
 Du dessin sérigraphié à la peinture sur corps, du décor sur céramique au tatouage sur peau,
 c’est sur différents supports que Chloé donne à voir une vision tantôt indigeste, tantôt

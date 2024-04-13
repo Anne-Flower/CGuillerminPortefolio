@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import Masonry from "react-responsive-masonry";
-// public/assets/imagesBody/2020/1.jpg
 
 const BodyPainting = () => {
     const numberOfBoxes = 15
@@ -30,9 +29,9 @@ const BodyPainting = () => {
     }, [] );
   
   return (
-    <div className="pt-36 lg:px-20 px-8">
-       <Masonry columnsCount={columnsCount}  gutter="60px">
-       {images.map((img, index) => (
+    <div className="pt-36 lg:px-20 px-8 h-full">
+      <Masonry columnsCount={columnsCount}  gutter="60px">
+      {images.map((img, index) => (
         <div
           key={index}
           style={{
@@ -40,15 +39,13 @@ const BodyPainting = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center', 
             height: `${pick([390, 230, 480, 300, 260, 350])}px`,
-           
           }}
         >
-   
         </div>
       ))}
     </Masonry>
     <Masonry columnsCount={columnsCount}  gutter="60px">
-       {images2.map((img, index) => (
+      {images2.map((img, index) => (
         <div
           key={index}
           style={{
@@ -56,15 +53,13 @@ const BodyPainting = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center', 
             height: `${pick([390, 230, 480, 320, 260, 350])}px`,
-           
           }}
         >
-   
         </div>
       ))}
     </Masonry>
     <Masonry columnsCount={columnsCount}  gutter="60px">
-       {images3.map((img, index) => (
+      {images3.map((img, index) => (
         <div
           key={index}
           style={{
@@ -72,10 +67,8 @@ const BodyPainting = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center', 
             height: `${pick([190, 230, 400, 300, 560, 350])}px`,
-           
           }}
         >
-   
         </div>
       ))}
     </Masonry>
