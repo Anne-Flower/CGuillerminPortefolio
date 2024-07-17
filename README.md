@@ -1,3 +1,8 @@
-Projet de portfolio d'artiste réalisé en React, Tailwind, Masonry, NodeJS et Framer Motion.
-D'après le Figma que j'ai réalisé dans un premier temps.
+Artist portfolio realised in React, Tailwind, Masonry and Framer Motion.
+
+Realisation of a simple Figma
 Responsive: mobile first
+Deployed on Netlify
+
+Actuel web site link: 
+https://nimble-pika-71f28f.netlify.app/
