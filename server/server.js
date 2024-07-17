@@ -9,6 +9,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+
 // Connexion à la base de données
 const db = mysql.createPool({
   host: process.env.DB_HOST,
@@ -26,7 +27,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-app.get("/toto", (req, res) => {
+app.get("/contact", (req, res) => {
   res.status(200).send({ message: "ok" });
   return;
 });

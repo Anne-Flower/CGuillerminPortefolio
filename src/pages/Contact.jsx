@@ -1,40 +1,18 @@
 import React from "react";
-import Button from "../components/Button";
 
 const Contact = () => {
   return (
-    <section className="bg-white ">
+    <section className="bg-white">
       <div className="mx-auto h-full">
-        <div className="flex flex-col lg:flex-row  h-screen items-center justify-start pt-36 lg:pt-0 gap-x-8 text-center lg:text-left">
-        <div></div>
-        <div className="lg:flex-1 lg:pt-16 px-4 ">
-          <h1 className="py-8 text-4xl font-zodiac font-semibold">Contact</h1>
-          <form className="bg-transparent flex flex-col gap-y-4 font-infini">
-            <div className="flex gap-x-10">
-              <input 
-              className="focus:outline-none  bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
-              type="text" 
-              placeholder="Ton nom"/>
-              <input 
-              className="focus:outline-none bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
-              type="text" 
-              placeholder="Ton email"/>
-            </div>
-            <input 
-              className="focus:outline-none bg-transparent h-[60px] w-full pl-3 placeholder:text-gray-600 border-b border-gray-600"
-              type="text" 
-              placeholder="Ton message"/>
-              <div className="mt-12">
-              <Button>Envoyer</Button>
-              </div>
-          </form>
+        <div className="flex flex-col  h-screen items-center justify-start pt-36 lg:pt-0 gap-x-8 text-center lg:text-left">
+        <div className="lg:flex-1 px-4 lg:pt-64 pt-56 ">
+          <h1 className="py-8 text-4xl font-zodiac font-semibold flex justify-center">Contact</h1>
+          <div className="lg:flex flex-row">
+          <a className="py-8 text-2xl font-infini text-lg lg:pl-8 flex justify-center hover:text-cyan-900" href="mailto:chloe.guillermin@gmail.com? subject=subject text">chloe.guillermin@gmail.com</a>
+          </div>          
         </div>
-        <div></div>
         </div>
-
       </div>
-
-
     </section>
   )
 }
